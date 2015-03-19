@@ -1,0 +1,134 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#headline {
+	padding: 0.8em;
+	color: white;
+	font-family: Roboto, helvetica, arial, sans-serif;
+	background-color: black;
+	background-image: url("../img/bg3.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	text-shadow: 1px 1px 5px black;
+}
+.container {
+	margin: auto;
+	background-color: rgba(0,0,0, 0.65);
+	padding:3px;
+}
+#headline header img {
+	height: 100px;
+	width: 200px;
+}
+.line {
+	position:relative;
+	width:100%;
+	background-color:white;
+	height:2px;
+	z-index:2;
+	margin-bottom:10px;
+}
+#headline h1 {
+	font-weight: 200;
+	font-size: 60px;
+	line-height: 1em;
+	margin-bottom: 0;
+}
+#headline h2 {
+	font-weight: 200;
+	font-size: 30px;
+	margin-top: 5px;
+}
+#headline #blurb {
+	font-weight: 200;
+	font-size: 18px;
+}
+#headline #register {
+	padding: 1em;
+	background-color: rgba(186,186,186, 0.7);
+	border-radius: 10px;
+
+}
+#headline #register h2 {
+	font-weight: 100;
+	padding: 0;
+	margin: 0;
+}
+#headline #register label {
+	font-size: 1.2em;
+	font-weight: 200;
+	padding-top: 12px;
+	display: block;
+}
+#headline #register input {
+	width: 100%;
+	font-size: 18px;
+	font-weight: 200;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#headline #register input[type=submit] {
+	background-color: black;
+	color: white;
+	margin-top: 20px;
+	padding: 10px;
+	border: none;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+@media screen and (min-width: 860px) {
+.container {
+	margin: auto;
+	max-width: 800px;
+	background-color: rgba(0,0,0, 0.5);
+	padding:10px;
+	border-radius: 30px;
+}
+#headline {
+	padding: 20px 5%;
+	
+}
+#headline header {
+	position:relative;
+}
+#headline header img {
+	position:absolute;
+	z-index:1;
+	top:-25px;
+}
+#headline h1 {
+	font-size:80px;
+	text-align:center;
+	position:relative;
+	z-index:2;
+}
+#headline header p {
+	position:relative;
+	text-align:center;
+	z-index:2;
+}#headline #blurb {
+	position:relative;
+	float: left;
+	font-weight: 200;
+	width: 50%;
+	font-size: 18px;
+	box-sizing: border-box;
+	padding-right: 10px;
+	text-align:right;
+	z-index:2;
+}
+#headline #register {
+	position:relative;
+	float:right;
+	padding: 20px;
+	width: 50%;
+	box-sizing: border-box;
+	font-weight: 300;
+	z-index:2;
+
+}
+#headline br {
+	clear: both;
+}
